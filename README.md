@@ -30,6 +30,7 @@ Every time you start Steam, it checks the integrity of every file and re-downloa
 To prevent this, add the `-noverifyfiles` and `-norepairfiles` flags to your steam shortcut by right-clicking it, clicking "Properties", and adding them to the `Target` field.
 
 Here's an image of what it should look like:
+
 ![Image of shortcut properties](https://i.imgur.com/kVdvuOJ.jpg)
 
 # Is this safe?
