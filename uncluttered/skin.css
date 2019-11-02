@@ -1,0 +1,108 @@
+
+/**** Reordered Items ****/
+/* Reorder and resize elements. Self-explanatory.
+*  The order of these definitions matters. Change the value of the order
+*  properties, not the order of the rules.
+*/
+/* Workshop */
+.appdetailsoverview_Container_27RcN .appdetailsoverview_RightColumn_2aor4 > *:nth-last-child(3){
+  order: 70;
+  flex-basis: 100%;
+}
+
+
+/* DLC */
+.appdetailsoverview_Container_27RcN .appdetailsoverview_RightColumn_2aor4 > *:nth-child(6){
+  order: 10;
+  flex-basis: 100%;
+}
+
+/* Achievements */
+.appdetailsoverview_Container_27RcN .appdetailsoverview_RightColumn_2aor4 > *:nth-child(4){
+  order: 20;
+  flex: 2;
+}
+
+/* Friends */
+.appdetailsoverview_Container_27RcN .appdetailsoverview_RightColumn_2aor4 > *:nth-child(2){
+  order: 30;
+  flex: 1;
+}
+
+/* Screenshots */
+.appdetailsoverview_Container_27RcN .appdetailsoverview_RightColumn_2aor4 > *:nth-last-child(2){
+  order: 40;
+  flex-basis: 100%;
+}
+
+/* My Review */
+.appdetailsoverview_Container_27RcN .appdetailsoverview_RightColumn_2aor4 > *:nth-last-child(1){
+  order: 50;
+  flex-basis: 100%;
+}
+
+/* Trading Cards */
+.appdetailsoverview_Container_27RcN .appdetailsoverview_RightColumn_2aor4 > *:nth-child(5){
+  order: 60;
+  flex-basis: 100%;
+}
+/**** End Reordered Items ****/
+
+
+/**** Remove Activity Feed ****/
+/* Parent Container */
+.appdetailsoverview_Container_27RcN .appdetailsoverview_ColumnContainer_OhSdL{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Removes left column (Activity Feed) */
+.appdetailsoverview_Container_27RcN .appdetailsoverview_LeftColumn_1sZgB {
+  display: none;
+}
+
+/* Extends right column to occupy full width, allows child elements to be positioned and resized freely */
+.appdetailsoverview_Container_27RcN .appdetailsoverview_RightColumn_2aor4 {
+  width: 100%;
+  margin-left: unset;
+  float: unset;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+/**** End Remove Activity Feed ****/
+
+/**** Spotlight at bottom ****/
+/* Spotlight */
+.appdetailsoverview_Container_27RcN .appdetailsspotlight_AppDetailsSpotlight_gh6du{
+  width: 100%;
+  order: 4;
+}
+/**** Spotlight at bottom ****/
+
+/**** Remove What's New ****/
+/* Hide "What's New" section in library home */
+.libraryhome_WhatsNewContainer_gdZT7 {
+  display: none;
+}
+/**** End Remove What's New ****/
+
+/**** Hide Home Button ****/
+/* Hide Home button */
+.gamelisthome_Bar_3pSPl {
+  display: none;
+}
+/**** End Hide Home Button ****/
+
+/**** Hide Rating Notification ****/
+/* Hide recommendation begger (You've played for X hours would you like to recommend...)  */
+.writereview_RatingContainer_2Jk1D {
+  display: none;
+}
+/**** End Hide Rating Notification ****/
+
+/**** Reduce Header Height ****/
+/* Reduce game header height */
+.sharedappdetailsheader_TopCapsule_NZMJ6.sharedappdetailsheader_TopCapsule_NZMJ6 {
+  max-height: 120px;
+}
+/**** End Reduce Header Height ****/
