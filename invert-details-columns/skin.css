@@ -1,0 +1,30 @@
+/* Parent Container */
+.appdetailsoverview_Container_27RcN .appdetailsoverview_ColumnContainer_OhSdL{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Put left column on the right */
+.appdetailsoverview_Container_27RcN .appdetailsoverview_LeftColumn_1sZgB {
+  order: 3;
+  flex: 1;
+}
+
+/* Prevent overflowing */
+.appdetailsoverview_Container_27RcN .appdetailsoverview_LeftColumn_1sZgB > * > *{
+  max-width: 100%;
+}
+
+/* Bring right column to the left, make it wider */
+.appdetailsoverview_Container_27RcN .appdetailsoverview_RightColumn_2aor4 {
+  min-width: 66%;
+  margin-left: unset;
+  float: unset;
+  flex-direction: row;
+  flex-wrap: wrap;
+  order: 2;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 100%;
+  flex: 2;
+}
