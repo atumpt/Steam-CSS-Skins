@@ -1,0 +1,12 @@
+
+/* Removes left column (Activity Feed) */
+.appdetailsoverview_Container_27RcN .appdetailsoverview_LeftColumn_1sZgB {
+  display: none;
+}
+
+/* Extends right column to occupy full width, allows child elements to be positioned and resized freely */
+.appdetailsoverview_Container_27RcN .appdetailsoverview_RightColumn_2aor4 {
+  width: 100%;
+  margin-left: unset;
+  float: unset;
+}
