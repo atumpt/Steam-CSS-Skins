@@ -19937,7 +19937,7 @@ body {
 
 /*# sourceMappingURL=libraryroot.css.map*/
 
-/* Hide "What's New" section in library home */
-.libraryhome_WhatsNewContainer_gdZT7 {
-  display: none;
+/* Reduce game header height */
+.sharedappdetailsheader_TopCapsule_NZMJ6.sharedappdetailsheader_TopCapsule_NZMJ6 {
+  max-height: 120px;
 }
