@@ -1,0 +1,94 @@
+/* Custom modifications */
+
+/* Reorder and resize elements. Self-explanatory.
+*  The order of these definitions matters. Change the value of the order
+*  properties, not the order of the rules.
+*/
+/* Workshop */
+.appdetailsoverview_Container_27RcN .appdetailsoverview_RightColumn_2aor4 > *:nth-last-child(3){
+  order: 40;
+  flex-basis: 100%;
+}
+ 
+ 
+/* DLC */
+.appdetailsoverview_Container_27RcN .appdetailsoverview_RightColumn_2aor4 > *:nth-child(6){
+  order: 10;
+  flex: 1;
+}
+ 
+/* Achievements */
+.appdetailsoverview_Container_27RcN .appdetailsoverview_RightColumn_2aor4 > *:nth-child(4){
+  order: 20;
+  flex: 1;
+}
+ 
+/* Friends */
+.appdetailsoverview_Container_27RcN .appdetailsoverview_RightColumn_2aor4 > *:nth-child(2){
+  order: 30;
+  flex: 1;
+}
+ 
+/* Screenshots */
+.appdetailsoverview_Container_27RcN .appdetailsoverview_RightColumn_2aor4 > *:nth-last-child(2){
+  order: 60;
+  flex: 1;
+}
+ 
+/* My Review */
+.appdetailsoverview_Container_27RcN .appdetailsoverview_RightColumn_2aor4 > *:nth-last-child(1){
+  order: 50;
+  flex: 1;
+}
+ 
+/* Trading Cards */
+.appdetailsoverview_Container_27RcN .appdetailsoverview_RightColumn_2aor4 > *:nth-child(5){
+  order: 70;
+  flex: 1;
+}
+ 
+/* Removes left column (Activity Feed) */
+.appdetailsoverview_Container_27RcN .appdetailsoverview_LeftColumn_1sZgB {
+  display: none;
+}
+ 
+/* Extends right column to occupy full width, allows child elements to be positioned and resized freely */
+.appdetailsoverview_Container_27RcN .appdetailsoverview_RightColumn_2aor4 {
+  width: 100%;
+  margin-left: unset;
+  float: unset;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+ 
+/* Shunts game updates, post-game summary, etc. to the bottom of the page */
+.appdetailsoverview_Container_27RcN > *:nth-last-child(1){
+  display: flex;
+  flex-direction: column-reverse;
+  width: 100%;
+}
+
+/* Hide "What's New" section in library home */
+.libraryhome_WhatsNewContainer_gdZT7 {
+  display: none;
+}
+
+/* Hide recommendation begger (You've played for X hours would you like to recommend...)  */
+.writereview_RatingContainer_2Jk1D {
+  display: none;
+}
+
+/* Hide Home button */
+.gamelisthome_Bar_3pSPl {
+  display: none;
+}
+
+/* Darker Home view background color, alternative options commented out */
+.libraryhome_Container_2gSXC {
+  background: radial-gradient(100% 100% at 45% 45%, #202731 0%, #24282F 100%); 
+  /* 
+  background: #1B2838; 
+  background: #23272D; 
+  */ 
+}
+  
